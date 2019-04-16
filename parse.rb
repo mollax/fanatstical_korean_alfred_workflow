@@ -181,7 +181,7 @@ if schedule_string =~ matcher
     end
 
     if place
-        sentence += " @ #{place}"
+        sentence += " @ #{place} "
     end
 end
 outSentence = "x-fantastical2://parse?s=#{sentence}"
