@@ -39,7 +39,7 @@ cal 내일 오후 3시에 집에서 놀기
 
 ## 인스톨 방법
 
-[Fantastical_Korean.alfredworkflow](https://github.com/mollax/fanatstical_korean_alfred_workflow/Fantastical_Korean.alfredworkflow) 파일을 받아 설치하시면 됩니다.
+[Fantastical_Korean.alfredworkflow](https://github.com/mollax/fanatstical_korean_alfred_workflow/blob/master/Fantastical_Korean.alfredworkflow) 파일을 받아 설치하시면 됩니다.
 
 
 ## Reference
