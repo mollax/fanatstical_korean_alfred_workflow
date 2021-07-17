@@ -1,6 +1,8 @@
 # encoding: utf-8
 require 'date'
 require 'cgi'
+require 'uri'
+
 begin
     require 'iconv'
 rescue LoadError
@@ -184,7 +186,7 @@ if schedule_string =~ matcher
         sentence += " @ #{place} "
     end
 end
-outSentence = "x-fantastical2://parse?s=#{sentence}"
+outSentence = URI.encode("x-fantastical2://parse?s=#{sentence}")
 system("open", outSentence)
 
 puts outSentence
